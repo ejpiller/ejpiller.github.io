@@ -1,3 +1,7 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .container {
   height: 100vh;
   display: grid;
@@ -10,21 +14,27 @@
 }
 
 .item {
-    border: 1px solid black;
+    border: 0.25rem solid black;
+    border-radius: 1rem;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .header {
     grid-area: header;
     margin-top: 2rem;
+    text-align: center;
+    background-color: aliceblue;
 }
 
 .main {
     grid-area: main;
+    background-color: ghostwhite;
 }
 
 .footer {
     grid-area: footer;
     margin-bottom: 2rem;
+    text-align: center;
+    background-color: aliceblue;
 }
