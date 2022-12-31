@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.item {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.header {
+    grid-area: header;
+    margin-top: 2rem;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+    margin-bottom: 2rem;
+}
